@@ -1,0 +1,7 @@
+sensor1 x: 0.62, y: 0.65
+sensor2 x: 1.19, y: 0.67
+sensor3 x: 1.69, y: 0.73
+sensor4 x: 2.25, y: 0.67
+sensor5 x: 1.10, y: 1.27
+sensor6 x: 1.55, y: 1.25
+sensor7 x: 2.07, y: 1.28

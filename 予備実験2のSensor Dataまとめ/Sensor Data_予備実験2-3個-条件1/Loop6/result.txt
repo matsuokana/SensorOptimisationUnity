@@ -1,0 +1,2 @@
+トレーニングデータに対する正解率： 0.6333333333333333
+Identification rate for test data： 0.6

@@ -1,0 +1,104 @@
+＜光源の位置＞
+光源の位置（high）:(0.44, 1.02, 10.37)
+光源の位置（mid）:(0.44, 0.4, 10.37)
+光源の位置（low）:(0.44, -0.22, 10.37)
+
+human（デフォルト位置）:0.4 -0.95 9.4
+humanの身長：1.38
+0.43-(-0.95)=1.38
+
+＜trainData＞
+jump / squat
+human:0.4 -0.95 9.4
+
+tiltBodyLeft
+human:0.5 -1.4 9.25
+
+tiltBodyRight
+human:0.5 -1.4 9.25 (Y=160)
+
+turnHandLeft / turnHandRight
+human:0.5 -1.4 9.25 (Y=180)
+
+<testData> 
+jump1-5
+human:0.4 -0.95 10
+
+jump6-7
+human:0.4 -0.95 10.5
+
+jump8-9
+human:0.2 -0.95 10.9
+
+jump10
+human:0.2 -0.95 11
+
+squat1
+human:0.35 -0.95 9.6
+
+squat2-3, 7, 8, 9
+human:0.32 -0.95 9.6
+
+squat4-6
+human:0.34 -0.95 9.6
+
+squat10
+human:0.3 -0.95 9.6
+
+tiltBodyLeft1-3
+human:0.4 -1.45 9.6
+
+tiltBodyLeft4-10
+human:0.4 -1.45 9.4
+
+tiltBodyRight
+human:0.4 -1.45 9.4
+
+turnHandLeft
+human:0.4 -1.45 9.4
+
+turnHandRight
+human:0.4 -1.45 9.4
+
+<testData2> 
+jump1
+human:0.4 -0.95 9.5
+
+jump2
+human:0.4 -0.95 9.8
+
+jump3-4
+human:0.3 -0.95 9.8
+
+jump5
+human:0.4 -0.95 9.8
+
+jump6
+human:0.35 -0.95 10.1
+
+jump7
+human:0.35 -0.95 10.3
+
+jump8,9
+human:0.3 -0.95 10.4
+
+jump10
+human:0.3 -0.95 10.55
+
+squat1-10
+human:0.4 -0.95 9.4
+
+tiltBodyLeft1-10
+human:0.4 -1.45 9.33 (Y=160)
+
+tiltBodyRight1-10
+human:0.45 -1.45 9.33 (Y=160)
+
+TurnHandLeft1-10
+human:0.45 -1.45 9.33 (Y=160)
+
+TurnHandRight1,2
+human:0.4 -1.45 9.33 (Y=160)
+
+TurnHandRight3-10
+human:0.4 -1.45 9.33 (Y=170)

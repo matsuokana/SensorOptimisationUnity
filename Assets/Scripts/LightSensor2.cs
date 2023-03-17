@@ -9,7 +9,8 @@ public class LightSensor2 : MonoBehaviour
     private Texture2D targetTexture;
     public float lightValue;
 
-    public GameObject value_object = null; // Textオブジェクト
+    //public GameObject value_object = null; // Textオブジェクト
+    public GameObject sensorView;
 
     // Start is called before the first frame update
     void Start()
@@ -31,9 +32,12 @@ public class LightSensor2 : MonoBehaviour
 
         // 照度を取得する
         lightValue = GetLightValue(targetTexture);
-        
-        Text TextLightValue = value_object.GetComponent<Text>();
-        TextLightValue.text = string.Format("{0:0.000}", lightValue);
+        //Debug.Log(lightValue);
+
+        //Text TextLightValue = value_object.GetComponent<Text>();
+        //TextLightValue.text = string.Format("{0:0.000}", lightValue);
+        Image ImageSensorView = sensorView.GetComponent<Image>();
+        ImageSensorView.color = new Color(0f, lightValue, 0f, 1f);
         
     }
 
